@@ -1,0 +1,9 @@
+body {
+    background: lightblue;
+}
+
+#cover-image {
+    max-height: 300px;
+    max-width: auto;
+    
+}
