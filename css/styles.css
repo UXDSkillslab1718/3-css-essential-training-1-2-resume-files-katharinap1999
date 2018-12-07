@@ -1,5 +1,48 @@
-body {
-    background: lightblue;
+/*Color Palette
+#CC998D - dark blue
+#8D99AE - light blue
+#D8DBE2 - grey
+#EF233C - red 
+*/
+
+
+/*Global styles
+-----------------------------*/
+body  {
+
+}
+
+a {
+    color:blue;  
+} 
+a:hover {
+text-decoration: none;
+}
+
+
+/*Header and Footer
+-----------------------------*/
+
+header, footer {
+    background: #CC998D;
+    color: black
+}
+header h1, header h2 {
+    color: #EDF2F4; 
+}
+
+/*Work Experience 
+-----------------------------*/
+
+.work {
+    background: #D8DBE2
+}
+
+/*Education
+-----------------------------*/
+
+.education {
+    background: #8D99AE
 }
 
 #cover-image {
