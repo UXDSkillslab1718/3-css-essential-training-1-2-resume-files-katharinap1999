@@ -1,10 +1,3 @@
-/*Color Palette
-#CC998D - dark blue
-#8D99AE - light blue
-#D8DBE2 - grey
-#EF233C - red 
-*/
-
 
 /*Global styles
 -----------------------------*/
@@ -50,17 +43,6 @@ text-decoration: none;
     
 }
 
-.col-narrow {
-    width: 30%;
-    float: left;
-   
-}
-
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 20px;
-}
 
 .uppercase { 
 text-transform: uppercase;
@@ -168,4 +150,30 @@ margin-top: 30px;
     max-height: 300px;
     max-width: auto;
     
+}
+
+/*Media Queries
+-----------------------------*/
+@media (min-width:900px) {
+    .col-narrow {
+    width: 30%;
+    float: left;
+   
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}    
+}
+
+@media (max-width:899px){
+    header {
+        text-align: center;
+        
+    }   
+    .profile-img{
+        width:200px
+    }
 }
