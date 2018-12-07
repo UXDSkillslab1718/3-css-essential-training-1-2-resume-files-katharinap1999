@@ -9,9 +9,19 @@
 /*Global styles
 -----------------------------*/
 body  {
+    font-family: 'Encode Sans Condensed', sans-serif;
 
 }
-
+h1,h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+font-size: 25px;
+}
 a {
     color:blue;  
 } 
@@ -31,7 +41,7 @@ header h1, header h2 {
     color: #EDF2F4; 
 }
 
-/*Work Experience 
+/*Kalahari Experience 
 -----------------------------*/
 
 .work {
