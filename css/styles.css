@@ -45,7 +45,7 @@ text-decoration: none;
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px; 50px;
     overflow: hidden;
     
 }
@@ -66,6 +66,14 @@ text-decoration: none;
 text-transform: uppercase;
 }
 
+.btn { 
+text-decoration: none;
+background: #918B76;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
 /*Header and Footer
 -----------------------------*/
 
@@ -74,11 +82,22 @@ header, footer {
     color: black
 }
 /*header */ 
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
 .profile-img {
     border-radius: 50%;
 
 }
 
+.download {
+position: absolute;
+    bottom: 0;
+    left: 0;
+}
    
 
 header h1, header h2 {
@@ -96,7 +115,26 @@ footer {
     display: inline-block;
 }
 
-/*Kalahari Experience 
+/*Navigation
+-----------------------------*/
+
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*Work Experience 
 -----------------------------*/
 
 .work {
