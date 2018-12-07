@@ -110,7 +110,7 @@ footer {
 }
 
 .contact-info a {
-    background: white;
+    /*background: white;*/
     padding: 10px;
     display: inline-block;
 }
@@ -138,7 +138,11 @@ nav a {
 -----------------------------*/
 
 .work {
-    background: #D8DBE2
+       background: linear-gradient(rgba(35,35,36,0.8), rgba(35,35,36,0.5)),
+        url(../images/africa.jpg) no-repeat fixed;
+    background-size: cover;
+    color: white;
+
 }
 h3 ~ p {
     margin: 0;
@@ -153,7 +157,7 @@ h3 ~ p {
 -----------------------------*/
 
 .education {
-    background: #8D99AE
+    background: #E8E6DC
 }
 
 p + h3 {
