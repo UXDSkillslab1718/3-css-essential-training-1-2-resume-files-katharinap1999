@@ -8,8 +8,16 @@
 
 /*Global styles
 -----------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body  {
     font-family: 'Encode Sans Condensed', sans-serif;
+    margin: 0;
 
 }
 h1,h2 {
@@ -20,15 +28,37 @@ h1 {
     font-size: 40px;
 }
 h2 {
-font-size: 25px;
+    font-size: 25px;
+    margin-top:0;
+    
 }
 a {
-    color:blue;  
+    color:black;  
 } 
 a:hover {
 text-decoration: none;
+
 }
 
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}
 
 /*Header and Footer
 -----------------------------*/
@@ -37,8 +67,27 @@ header, footer {
     background: #CC998D;
     color: black
 }
+/*header */ 
+.profile-img {
+    border-radius: 50%;
+
+}
+
+   
+
 header h1, header h2 {
     color: #EDF2F4; 
+    margin: 0;
+}
+/*footer */
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    background: white;
+    padding: 10px;
+    display: inline-block;
 }
 
 /*Kalahari Experience 
@@ -47,6 +96,8 @@ header h1, header h2 {
 .work {
     background: #D8DBE2
 }
+
+
 
 /*Education
 -----------------------------*/
